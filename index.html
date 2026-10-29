@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#183c35">
+  <meta name="description" content="Preparação para Agente Comunitário de Saúde de Navegantes: aulas, questões comentadas, simulados FURB e provas anteriores oficiais.">
+  <title>Rota ACS · Seu próximo passo começa aqui</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Pular para o conteúdo</a>
+  <aside id="sidebar">
+    <a href="#inicio" class="brand"><span class="brand-icon">✚</span><span>rota<span class="brand-light">acs</span><small>ESTUDE. CUIDE. TRANSFORME.</small></span></a>
+    <div class="workspace"><span class="location">⌖</span><div>Navegantes, SC<small>Agente Comunitário de Saúde</small></div><span class="dot"></span></div>
+    <div class="nav-label">SEU ESPAÇO DE ESTUDO</div>
+    <nav aria-label="Principal">
+      <a href="#inicio" data-nav="inicio"><span>◫</span>Visão geral</a>
+      <a href="#conteudo" data-nav="conteudo"><span>▤</span>Conteúdo do edital</a>
+      <a href="#questoes" data-nav="questoes"><span>✓</span>Banco de questões</a>
+      <a href="#simulados" data-nav="simulados"><span>◷</span>Simulados<span class="nav-badge">40Q</span></a>
+      <a href="#revisao" data-nav="revisao"><span>▱</span>Revisão e cartões</a>
+      <a href="#plano" data-nav="plano"><span>▦</span>Meu plano</a>
+      <a href="#biblioteca" data-nav="biblioteca"><span>▧</span>Provas e materiais</a>
+    </nav>
+    <div class="sidebar-bottom"><div class="small-note"><span>✦</span><strong>Um pouco a cada dia.</strong><p>Cuidar da sua preparação também é um passo para cuidar de pessoas.</p></div><a href="#edital" class="edital-link">↗ Guia do concurso e inscrição</a><div class="profile"><span>M</span><div>Meu espaço<small>Progresso salvo neste navegador</small></div></div></div>
+  </aside>
+  <div class="shell">
+    <header><button class="mobile-menu icon-btn" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button><div class="breadcrumb">PREPARAÇÃO ACS <span>/</span> <b id="page-label">Visão geral</b></div><div class="header-actions"><span class="edition">FURB · EDITAL 0172/2026</span><button class="icon-btn" id="search-open" aria-label="Buscar aulas e questões">⌕</button></div></header>
+    <main id="main" tabindex="-1"></main>
+    <footer><span>rota<strong>acs</strong> <span class="footer-sep">·</span> Seu estudo, no caminho certo.</span><span>Material independente · Fontes conferidas em 29/10/2026 <a href="#biblioteca">Ver fontes ↗</a></span></footer>
+  </div>
+  <dialog id="lesson-dialog" aria-label="Leitura da aula"><div id="lesson-body"></div></dialog>
+  <dialog id="search-dialog" aria-label="Buscar conteúdo"><div class="modal-top"><h2>O que vamos estudar?</h2><button class="icon-btn" data-close="search-dialog" aria-label="Fechar busca">×</button></div><label for="global-search" class="sr-only">Buscar aulas e questões</label><input id="global-search" class="search-input" placeholder="Busque por SUS, crase, porcentagem…"><div id="search-results" aria-live="polite"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="lessons.js"></script><script src="questions.js"></script><script src="app.js"></script>
+</body>
+</html>
